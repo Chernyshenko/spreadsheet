@@ -5,7 +5,7 @@
 #include <cmath>
 #include "sheet.h"
 using namespace std;
-Value VALUE_INITIAL = NAN; // std::numeric_limits<Value>::min();
+Value VALUE_INITIAL = std::numeric_limits<Value>::min();
 
 Value Sum(Value a, Value b) {
 	//this_thread::sleep_for(std::chrono::milliseconds(1));
